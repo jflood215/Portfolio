@@ -1,21 +1,156 @@
-/* .navbar {
-    position: fixed; 
-} */
-
-.jumbotron {
-    background-image: url(https://images.unsplash.com/photo-1546900703-cf06143d1239?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1891&q=80);
-    height: 92vh;
-    color: white;
-    font-family: Helvetica, sans-serif;
-    background-repeat: no-repeat;
+html, body {
+  height: 96%;
+  margin: 0;
 }
 
-#jumbo-heading {
-    font-size: 3.6em;
-    font-weight: 300;
-    
+.full-height {
+  height: 96%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#test2 {
+    padding-left: 1.2em;
+}
+
+/* .container {
+    margin-top: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ */
+
+#name{
+  font-size: 3.9em;
+}
+
+#subname{
+  font-size: 2.4em;
+}
+
+.jumbotron{
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+
+}
+
+.headings{
+  font-size: 2.5em;
+  text-align: center;
+} 
+
+.card{
+  padding: 0.2em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
 }
 
 #code {
     font-size: 1.1em;
+}
+
+#second-row{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  color: white;
+}
+
+
+/*Everything below is for a sticky navbar*/
+
+/* Page content */
+.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  /* reset */
+form input,
+form select,
+form textarea,
+form fieldset,
+form optgroup,
+form label,
+.StripeElement {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+form label,
+form legend {
+  font-size: 0.825rem;
+  margin-bottom: 0.5rem;
+}
+/* border, padding, margin, width */
+form input,
+form select,
+form textarea,
+.StripeElement {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1rem;
+  margin-bottom: 0.5rem;
+}
+form input:focus,
+form select:focus,
+form textarea:focus,
+.StripeElement:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+form [type="text"],
+form [type="email"],
+.StripeElement {
+  width: 100%;
+}
+form [type="button"],
+form [type="submit"],
+form [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+form [type="button"]:focus,
+form [type="submit"]:focus,
+form [type="reset"]:focus {
+  outline: none;
+}
+
+form select {
+  text-transform: none;
 }
