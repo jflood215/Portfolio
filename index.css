@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 96%;
   margin: 0;
 }
@@ -12,7 +13,7 @@ html, body {
 }
 
 #test2 {
-    padding-left: 1.2em;
+  padding-left: 1.2em;
 }
 
 /* .container {
@@ -22,70 +23,73 @@ html, body {
     align-items: center;
  */
 
-#name{
+#name {
   font-size: 3.9em;
 }
 
-#subname{
+#subname {
   font-size: 2.4em;
 }
 
-.jumbotron{
+.jumbotron {
   padding-top: 2.5em;
   padding-bottom: 1em;
-
 }
 
-.headings{
+.headings {
   font-size: 2.5em;
   text-align: center;
-} 
+}
 
-.card{
+.card {
   padding: 0.2em;
   margin-left: 0.2em;
   margin-right: 0.2em;
 }
 
 #code {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
-#second-row{
+#second-row {
   display: flex;
   justify-content: center;
 }
 
-.card{
+.card {
   display: flex;
   justify-content: center;
 }
 
-.footer{
+.card-group {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.footer {
   color: white;
 }
-
 
 /*Everything below is for a sticky navbar*/
 
 /* Page content */
 .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  }
+  padding: 16px;
+}
 
-  /* reset */
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* reset */
 form input,
 form select,
 form textarea,
