@@ -74,6 +74,27 @@ body {
   color: white;
 }
 
+.learn:hover {
+  transform: scale(1.1);
+}
+
+.button-color {
+  background-color: #62b6ee;
+}
+
+.button-color:hover {
+  background-color: black;
+}
+
+#form-button {
+  border-radius: 5%;
+}
+
+#form-button:hover {
+  background-color: black;
+  color: white;
+}
+
 /*Everything below is for a sticky navbar*/
 
 /* Page content */
