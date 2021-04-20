@@ -20,13 +20,6 @@ body {
   text-align: center;
 }
 
-/* .container {
-    margin-top: 10em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- */
-
 #name {
   font-size: 3.9em;
   animation-name: colors;
@@ -101,10 +94,11 @@ body {
 
 .button-color {
   background-color: #3d99d6;
+  margin-bottom: 0.25em;
 }
 
 .button-color:hover {
-  background-color: black;
+  background-color: #3689c0;
 }
 
 #form-button {
