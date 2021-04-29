@@ -162,7 +162,7 @@ form textarea,
   box-sizing: border-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 0.75em 1rem;
+  padding: 0.5em 1rem;
   margin-bottom: 0.5rem;
 }
 form input:focus,
