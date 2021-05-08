@@ -14,6 +14,7 @@
 <body>
 <!--NAVBAR-->
 <div class="container-fluid" id="home"></div>
+<section>
 <header>
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
   <a class="navbar-brand" href="http://jflood215.github.io">Developer Portfolio</a>
@@ -34,10 +35,10 @@
 </nav>
 </header>
 </div>
-
+</section>
 
       <!--Landing Page / Home-->
-     
+     <section>
       <div class="full-height">
         <div class="container">
           <div class="row">
@@ -45,58 +46,15 @@
         <h1 id="name">John Flood</h1>
         <h3 id="subname">Web & Software Developer</h3>
       </div>
-      <!-- <br />
-      <br /> -->
-      <!-- <button type="button" class="btn btn-primary text-center" id="about">Scroll down</button> -->
-      <!-- <div class="col-sm-2 text-center pt-4">
-                  
-      </div>
-      <div class="col-sm-2 text-center pt-4">
-      <img src="assets/html-5.png" width="55" height="55"> 
-    </div>
-    <div class="col-sm-2 text-center pt-4">
-      <img src="assets/css.png" width="55" height="55">
-          </div>
-          <div class="col-sm-2 text-center pt-4">
-            <img src="assets/javascript.png" width="55" height="55">
-                </div>
-
-                <div class="col-sm-2 text-center pt-4">
-                  <img src="assets/typescript.jpeg" width="55" height="55"> 
-                </div>
-                
-                      <div class="col-sm-2 text-center pt-4" >
-                        
-                            </div>
-
-
-
-
-                            <div class="col-sm-3 text-center pt-3">
-                  
-                            </div>
-                            <div class="col-sm-2 text-center pt-3">
-                            <img src="assets/react2.png" width="60" height="60"> 
-                          </div>
-                          <div class="col-sm-2 text-center pt-3">
-                            <img src="assets/node-js-icon.png" width="55" height="55">
-                                </div>
-                                <div class="col-sm-2 text-center pt-3">
-                                  <img src="assets/postgresql-logo.png" width="60" height="60">
-                                      </div>
-                                      
-                                            <div class="col-sm-3 text-center pt-3" >
-                                              
-                                                  </div> -->
+  
 
         </div>
       </div>
     </div>
-        <!-- <a class="btn btn-primary btn-lg" id="button" href="#" role="button">Get Weather</a> -->
-      
+  </section>
       
     <!--About-->
-
+  <section>
     <div class="jumbotron text-center mt-5" id="about" style="background-image: linear-gradient(to right, #F6F7F9, #62b6ee);">
       <h2 class="headings">About Me</h2>
       <hr class="section-heading-spacer1">
@@ -119,35 +77,41 @@
       </div>
     </div>
     </div>
-          
-         
-    <!-- </div> -->
-
+  </section>
     
       <!--Portfolio-->
-
+    <section>
       <div class="container mt-5" id="portfolio">
         <div class="row">
       <div class="col-sm-12 text-center pb-4">
       <h2 class="headings">Portfolio</h2>
       <hr class="section-heading-spacer1">
-      <p>Here are some of the projects that I've been working on over the past year, along with a description and link to the website.</p>
+      <p>Here are some of the projects that I've completed or am currently working on, along with a description and link to the website.</p>
         
       </div>
         </div>
     </div>
-          
 
       <div class="card-group pb-4">
 
         <div class="card">
-          <img src="assets/macroapi.png" class="card-img-top" alt="Blue Badge">
+          <img src="assets/macroapi.png" class="card-img-top" alt="Macros Made Easy">
              <div class="card-body">
                <h5 class="card-title">Macros Made Easy</h5>
-               <p class="card-text">A Full CRUD health app that calculates optimal calorie/macro intake, pulls recipes from an API and tracks progress via weight tables. Built with React, PostgreSQL, and Node.js.
+               <p class="card-text">A Full CRUD health app that calculates optimal calorie/macro intake, pulls recipes from an API and tracks progress via weight tables. Built with React, Bootstrap, PostgreSQL, Sequelize, Express and Node.js.
                </p>
-               <p>This application is hosted on Heroku, so it can take 5-10 seconds to load initially.</p>
+               <p>This application is hosted on Heroku, so it can take 5-10 seconds to load.</p>
                <a href="https://macro-recipe-weight-client.herokuapp.com/" target="_blank" class="button-color btn btn-dark">Visit Website</a>
+              </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/musicapp.png" class="card-img-top" alt="Red Vinyl Music">
+          <div class="card-body">
+            <h5 class="card-title">Red Vinyl</h5>
+            <p class="card-text">A group project that utilizes an API, React class components, Node.js, Express, PostgreSQL, TypeScript, Material UI and Git to create a Full CRUD app where you can search for lyrics, track concerts you want to attend, and review songs.</p>
+            <p>This application is hosted on Heroku, so it can take 5-10 seconds to load.</p>
+            <a href="https://redvinyl-music.herokuapp.com" target="_blank" class="button-color btn btn-dark">Visit Website</a>
           </div>
         </div>
 
@@ -155,23 +119,11 @@
           <img src="assets/nyt.png" class="card-img-top" alt="New York Times API">
           <div class="card-body">
             <h5 class="card-title">New York Times API</h5>
-            <p class="card-text">This React app utilizes the New York Times API and is able to display stories on any topic and through any date span based on user input. Styling is completed with Bootstrap and some custom CSS.</p>
-            <p>This app is hosted through Firebase.</p>
+            <p class="card-text">This React single page application utilizes the New York Times API, and is able to display stories on any topic that's searched, along with any date span based on user input. Styling is completed with Bootstrap and some custom CSS.</p>
+            <p>This application is hosted through Firebase.</p>
             <a href="https://nyt-react-api.web.app/" target="_blank" class="button-color btn btn-dark">Visit Website</a>
             </div>
         </div>
-
-        <div class="card">
-          <img src="assets/musicapp.png" class="card-img-top" alt="Red Badge">
-          <div class="card-body">
-            <h5 class="card-title">Red Vinyl</h5>
-            <p class="card-text">A group project that utilizes an API, React class components, Node.js, Express, PostgreSQL, TypeScript, Material UI and Git to create a Full CRUD music app.</p>
-            <p>This application is hosted on Heroku, so it can take 5-10 seconds to load initially.</p>
-            <a href="https://redvinyl-music.herokuapp.com" target="_blank" class="button-color btn btn-dark">Visit Website</a>
-          </div>
-        </div>
-
-       
 
             <!---  https://api-nasa---marsweather.web.app/  --> 
             
@@ -186,7 +138,7 @@
         <div class="card-group pb-4 mb-2" style="background-image: linear-gradient(to right, #F6F7F9, #62b6ee);">
         <div class="card">
           
-          <img src="assets/interestcalc.png" class="card-img-top" alt="Blue Badge">
+          <img src="assets/interestcalc.png" class="card-img-top" alt="Interest Calculator">
           <div class="card-body">
             <h5 class="card-title">Simple Interest Calculator</h5>
             <p class="card-text">A simple interest calculator created with HTML, CSS, and DOM manipulation via vanilla JavaScript. This project was part of an IBM Cloud Computing course that I took.</p>
@@ -195,12 +147,11 @@
         </div>
         
         <div class="card">
-          <img src="assets/udacity.png" class="card-img-top" alt="Red Badge">
+          <img src="assets/udacity.png" class="card-img-top" alt="Object Oriented Dinosaur Project">
           <div class="card-body">
-            <h5 class="card-title">Udacity Dinosaur Project</h5>
+            <h5 class="card-title">Udacity OOP Dinosaur Project</h5>
             <p class="card-text">Currently finishing up a project through an Intermediate JavaScript course on Udacity. This project utilizes object oriented programming and more advanced design patterns.</p>
             <a href="" target="_self" class="button-color btn btn-dark">Coming Soon!</a>
-            
           </div>
         </div>
 
@@ -209,16 +160,16 @@
           <img src="assets/inprogress.png" class="card-img-top" alt="Side Project">
           <div class="card-body">
             <h5 class="card-title">In Progress</h5>
-            <p class="card-text">This spot is reserved for a Full Stack project that displays cryptocurrency prices and additional metrics. It utilizes React & Gatsby for the front-end and Node for the back-end.</p>
+            <p class="card-text">This spot is reserved for a Full Stack project that displays cryptocurrency prices and additional metrics. It utilizes React & Next.js for the front-end and Node for the back-end.</p>
             <a href="" target="_self" class="button-color btn btn-dark">Coming Soon!</a>
-            
+
           </div>
         </div>
       </div>
-      
+    </section>
 
   <!--LinkedIn, Resume, Github-->
-
+ <section>
   <div class="container pt-4" id="more">
     <div class="row">
   <div class="col-sm-12 text-center">
@@ -238,10 +189,10 @@
               </div>
       </div>
   </div>
-
+</section>
 
       <!--Contact Header-->
-      
+      <section>
       <div class="jumbotron" id="contact" style="background-image: linear-gradient(to right, #F6F7F9, #62b6ee);">
         <h2 class="headings">Contact</h2>
         <hr class="section-heading-spacer1">
@@ -261,6 +212,7 @@
           <input id="form-button" type="submit" value="Submit">
         </form>
       </div>
+    </section>
 
       <!---->
 
